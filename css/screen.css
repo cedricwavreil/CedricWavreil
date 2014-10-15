@@ -1,0 +1,1149 @@
+ article, aside, details, figcaption, figure, footer, header, main, nav, section, summary
+{
+    display: block;
+}
+
+body
+{
+	background:#F7F7F7;
+	margin:0;
+	padding:0;
+	color:#212121;
+	font:normal 90%/1.3 Helvetica,Arial,sans-serif;
+}
+
+
+/* ################# TYPOGRAPHY ################# */
+/*------------------------------------------------------------------------------------------------------*/
+
+.alpha1
+{
+	font:400 2.438em/1 "Passion One",Impact,Arial,sans-serif;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0;
+}
+
+.alpha2
+{
+	font:400 1.25em/1 "Passion One",Impact,Arial,sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.alpha3
+{
+	font:400 1.4em/1 "BenchNine",Helvetica,Arial,sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+/*-------------- logo-typo --------------------*/
+
+.logo a
+{
+	text-decoration: none;
+	color:#212121;
+}
+
+.logo-title
+{
+	padding:90px 0 10px;
+	font-size: 4.3em;
+}
+
+.logo-headline
+{
+	font-size: 1.3em;
+}
+
+ @media all and (min-width: 38em) {
+
+
+ }
+
+/*-------------- naviguation-typo ------------*/
+.mainnav
+{
+	font:400 1.2em/1 "Abel",Helvetica,Arial,sans-serif;
+	margin: 0;
+	padding: 0;	
+	text-transform: uppercase;
+}
+
+.navsec
+{
+	font:400 1em/1 "Abel",Helvetica,Arial,sans-serif;
+	margin: 0;
+	padding: 0;
+	letter-spacing: 0.08em;
+}
+
+/*-------------- contenu-typo ------------*/
+
+.project-title
+{
+	padding-bottom: 8%;
+}
+
+.explications, .block-home p, .explications-little
+{
+	font:400 1.2em/1.35 "Abel",Helvetica,Arial,sans-serif;
+}
+
+	.explications a
+	{
+		text-decoration: underline;
+		color: #212121;
+	}
+
+
+.project-process
+{
+	margin: 0;
+	/* padding: 0 0 0.3em;
+	letter-spacing: 0.08em; */
+	color: #212121;
+	padding: 0.02em 0 0;
+	font:400 1em/1.35 "Abel",Helvetica,Arial,sans-serif;
+
+}
+
+.project-date
+{
+	/* font:400 1.4em/1 "BenchNine",Helvetica,Arial,sans-serif;
+	margin: 0;
+	padding: 0;
+	letter-spacing: 0.08em;
+	color: #212121; */
+	padding: 0.02em 0 0;
+    font:400 1em/1.35 "Abel",Helvetica,Arial,sans-serif;
+
+}
+
+.nav-next-previous, .toproject-arrow
+{
+	font:400 2.438em/1 "Passion One",Impact,Arial,sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.next-project-title a
+{
+	/*font:400 1.2em/1 "BenchNine",Helvetica,Arial,sans-serif;*/
+		font:400 1.25em/1 "Passion One",Impact,Arial,sans-serif;
+	margin: 0;
+	padding: 0;	
+	text-decoration: none;
+	color: #212121;
+		text-transform: uppercase;
+		letter-spacing: 0.13em;
+}
+
+.pagefooter a
+{
+	font:400 1.1em/1.5 "Abel",Helvetica,Arial,sans-serif;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	color: #F7F7F7;
+	letter-spacing: 0.08em;
+}
+
+.details-title
+{
+	text-transform: uppercase;
+	letter-spacing: 0.13em;
+}
+
+.space
+{
+	text-transform: uppercase;
+	letter-spacing: 0.13em;
+}
+
+/*--------home-typo-------*/
+
+.getintouch
+{
+	font:400 1.25em/1 "Passion One",Impact,Arial,sans-serif;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	color: #616161;
+	display: inline-block;
+
+}
+
+.getintouch:hover
+{
+	color: #212121;
+}
+
+
+
+/*-------categories-typo-------*/
+
+.glue
+{
+	padding: 0;
+	margin: 0;
+}
+
+.explications-little
+{
+	font-size: 1em;
+	padding: 0.02em 0 0;
+}
+
+.name p
+{
+	padding: 0.2em 0 0;
+	margin: 0;
+}
+
+/* ################# SITE ################# */
+/*------------------------------------------------------------------------------------------------------*/
+
+.page
+{
+	max-width: 1024px;
+	min-width: 288px;
+	margin: 0 auto;
+}
+
+
+/*____________________INTRO______________________*/
+/*_______________________________________________*/
+
+.intro /*added*/
+{
+	width:100%;
+	margin: 2em auto 0;
+}
+
+@media all and (min-width: 47em) {
+
+	.intro
+	{
+		width: 79.1666%;
+		margin: 40px auto 0;
+	}
+
+}
+
+
+/*-------------- logo ------------*/
+
+.pageheader
+{
+	display: block;
+	margin: 0 auto;
+}
+
+	.logo
+	{
+		margin:0;
+		padding:0;
+	}
+
+	.pageheader a
+	{
+		position:relative; /*positioning context for the span (accessible image replacement)*/
+		display:block;
+		width: 280px;
+		height: 140px;
+		margin: 0 auto;
+		overflow:hidden; 
+		text-align:center;
+	}
+
+		.pageheader a > span
+		{
+			position:absolute;
+			top:0;
+			left:0;
+			width:100%;
+			height:100%;
+			background-image: url(../img/logo_small.svg);
+			background-position: 0 0;
+			background-repeat: no-repeat;
+		}
+
+			.no-svg .pageheader a > span
+			{
+				background-image: url(../img/logo_small.png);
+			}
+
+
+
+ @media all and (min-width: 38em) {
+
+ 		.pageheader a
+	{
+		width: 600px;
+		height: 200px;
+	}
+
+		.pageheader a > span
+		{
+			background-image: url(../img/logo.svg);
+			background-position: 0 0;
+		}
+
+			.no-svg .pageheader a > span
+			{
+				background-image: url(../img/logo.png);
+			}
+
+		.pageheader a:hover > span
+		{
+			background-position: 0px -201px;
+		}
+} 
+
+
+/*-------------- first navigation ------------*/
+
+.mainnav
+{
+	width: 80%; 
+	margin:0 auto;
+	padding: 15px 0 30px;
+	list-style: none;
+}
+
+@media all and (min-width: 28em) {
+	.mainnav
+	{
+		width: 60%; 
+	}
+}
+
+@media all and (min-width: 47em) {
+	.mainnav
+	{
+		width: 57.894%; 
+	}
+}
+
+
+.index
+{
+	padding-bottom: 0;
+}
+
+	.mainnav > li
+	{
+		display:inline;
+	}
+
+		.moving
+		{
+			float:left;
+		}
+
+		.still
+		{
+			float:right;
+		}
+
+			.mainnav a
+			{
+				display: inline-block;
+				padding: 20px 0 5px;
+				text-decoration: none;
+				color: #1A1A1A;
+				border-bottom: 1px solid rgba(204, 204, 204, .8);
+			}
+
+
+				.moving a 
+				{
+					background: url(../img/play.png) 50% 0 no-repeat;
+				}
+
+					.moving a:hover, .moving a.active
+					{
+						color: #ED1E79;
+						border-bottom-color: #ED1E79;
+					}
+
+				.still a 
+				{
+					background: url(../img/stop.png) 50% 0 no-repeat;
+				}
+
+					.still a:hover, .still a.active
+					{
+						color: #1EED82;
+						border-bottom-color: #1EED82;
+					}
+
+/*-------------- second navigation ------------*/
+
+.navsec
+{
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+	border-top: 1px solid rgba(204, 204, 204, .25);	
+	border-bottom: 1px solid rgba(204, 204, 204, .25);
+}
+
+	.navsec > li
+	{
+		display: inline-block;
+		padding: 0 2.6px;
+	}
+
+		.navsec a
+		{
+			padding: 1em 0.3em;
+			display: block;
+			text-decoration: none;
+			color: #1A1A1A;
+		}
+
+		.navsec a:before
+		{
+			content:"#";
+
+		}
+
+			.navsec a:hover, .navsec a.actived
+			{
+				color: #ED1E79;
+			}
+
+				.green a:hover, .green a.actived
+				{
+					color: #1EED82;
+				}
+
+/*____________________CONTENU______________________*/
+/*_________________________________________________*/
+
+.contenu
+{
+	width: 100%;
+	margin: 0 auto;
+	padding: 2em 0 15%;
+}
+
+@media all and (min-width: 47em) {
+
+	.contenu
+	{
+		width: 79.1666%;
+		padding: 40px 0 15%;
+	}
+
+}
+
+
+/*-------------- image hero ------------*/
+
+.image-hero, .image-hero-smaller
+{
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+
+	.image-hero-smaller
+	{
+		padding:0;
+	}
+
+	.sketch
+	{
+		padding-bottom: 4%;
+	}
+
+
+@media all and (min-width: 30em) {
+
+	.image-hero-smaller
+	{
+		padding:0 10.526%;
+	}
+
+	.sketch
+	{
+		padding-bottom: 5%;
+	}
+
+}
+
+.couverture
+{
+	padding: 7em 0;
+	background-image: url(../img/couverture_small.jpg);
+	background-repeat: no-repeat;
+	background-position: 20% 20%;
+	background-size:cover;
+}
+
+.covercache
+{
+	display: none;
+}
+
+@media all and (min-width: 30em) {
+
+	.couverture
+	{
+		padding: 18% 0;
+		background-image: url(../img/couverture.gif);
+	}
+
+
+
+}
+
+/*---------------- video -------------- */
+
+.video-container
+{
+	position: relative;
+	width: 100%;
+	padding-top: 56.25%;
+	background: #000;
+}
+
+	.video-container > iframe
+	{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		border:none;
+		background:#000;
+	}
+
+/*-------------- sections ------------*/
+
+/* --precise-- */
+
+.precise, .precise-home, .precise-categories
+{
+	margin:0 auto;
+	width: 90%; /*78.947*/
+}
+
+	.precise
+	{
+		padding: 13.333% 0 0;
+	}
+
+	.precise-home
+	{
+		padding: 10% 0 0 0;
+	}
+
+	.precise-categories
+	{
+		padding-top: 40px
+	}
+
+.precise p
+{
+	margin: 0;
+	padding: 0;
+}
+
+	.welcome
+	{
+		padding-bottom: 10%;
+		text-transform: uppercase;
+		text-align: center;
+		background: url(../img/scroll.png) 50% 100% no-repeat;
+	}
+
+
+.block-home
+{
+	margin: 0;
+	padding: 10% 0 0;
+	text-align: center; /**/
+}
+
+.plus
+{
+	margin: 0;
+	padding: 13% 0 0;
+}
+
+	.about
+	{
+		width: 100%;
+	}
+
+
+	.face
+	{	
+
+		width: 50%;
+		height: 50%;
+		margin: 0;
+		padding: 0;	
+
+	}
+
+		.face p
+		{
+			margin: 0;
+			padding: 0;
+
+		}
+
+		.face img
+		{
+			width: 100%;
+			display: none;
+		}
+
+@media all and (min-width: 30em) {
+	.precise, .precise-home, .precise-categories
+	{
+		width: 78.947%;
+	}
+
+	.face
+	{	
+		float: right;
+		width: 33.333%;	
+	}	
+
+	.about
+	{
+		float: left;
+		width: 60%;
+	}
+
+	.face img
+	{
+		display: inline-block;
+	}
+
+.block-home
+{
+
+	text-align: left; /**/
+}
+
+}
+
+/* # page project # */
+
+	.resume, .info-next
+	{
+		width:100%;
+		margin: 0;
+		padding: 0;
+	}
+
+	.resume
+	{
+		padding-bottom: 0.6em; /**/
+	}
+
+	.info-next
+	{
+		text-align: right;
+	}
+
+		.info
+		{
+			opacity: 0.4;
+		}
+
+		.next-previous
+		{
+			display: none;
+		}
+
+			.next-project-img img
+			{  
+				display: block;
+				width: 100%;
+				margin: 0;
+				padding: 4em 0 0.4em;
+			}
+
+@media all and (min-width: 30em) {
+
+	.resume, .info-next
+	{
+		width:46.666%;
+	}
+
+	.resume
+	{
+		float:left;
+		padding-bottom: 0;
+	}
+
+	.info-next
+	{
+		float:right;
+	}
+
+		.info
+		{
+			opacity: 0.9;
+		}
+
+		.next-previous
+		{
+			padding-top: 20%;
+			display: inline-block;
+		}
+
+			.nav-next-previous
+			{
+				float:right;
+				list-style:none;
+				margin:0;
+				padding:0;
+			}
+
+				.nav-next-previous > li
+				{
+					float:left;
+				}
+
+					.nav-next-previous a
+					{
+						float:left;
+						text-decoration: none;
+						color: #212121;
+					}
+						.nav-next-previous a:hover, .toprojects a:hover
+						{
+							color: #ED1E79;
+						}
+
+						.green-next a:hover
+						{
+							color: #1EED82;
+						}
+
+						.nav-next-previous li:first-child a
+						{
+							padding:0.15em 0.3em 0em 0;
+						}
+
+						.nav-next-previous li:last-child a
+						{
+							padding:0.15em 0 0em 0.3em;
+						}
+
+			.next-project-img img
+			{  	
+				padding: 0em 0 3%;
+			}
+
+}
+
+/* details */
+
+.zoom, .double
+{ 
+	width: 90%;
+	margin:0 auto;
+	padding: 4em 0 0;/**/
+}
+
+	.zoom img
+	{
+		display: block;
+		width: 100%;
+		margin: 0;
+	}
+
+	.zoom p
+	{
+		margin: 6% 0 0;
+		padding: 0px;
+	}
+
+	.double img
+	{
+		display: inline-block;
+		width: 50%;
+		float: left;
+
+	}
+
+	.double p
+	{
+		margin: 6% 0 0;
+	}
+
+@media all and (min-width: 30em) {
+
+	.zoom, .double
+	{ 
+		width: 78.947%;
+		padding: 10% 0 0;
+	}
+
+	.double img
+	{
+		float: left;
+	}
+
+}
+
+/*-------------- tocategories ------------*/
+.movestill
+{
+	padding-top: 3%;
+}
+
+	.imglink--left, .imglink--right
+	{
+		width: 46.666%;
+	}
+
+	.left
+	{
+		float: left;
+	}
+
+	.right
+	{
+		float: right;
+	}
+
+	.imglink--left
+	{
+		float: left;
+	}
+
+	.imglink--right
+	{
+		float: right;
+	}
+
+	.imglink--left a, .imglink--right a
+	{
+		text-decoration:none;
+		color: #212121;
+	}
+		
+		.imagecontainer
+		{
+			position:relative;
+			padding:0;
+			margin:0;
+		}
+
+			.imagecontainer > img
+			{
+				display:block;
+			}
+
+		.imagecontainer:before
+		{
+			display:block;
+			width:100%;
+			position:absolute;
+			top:50%;
+			text-align:center;
+			opacity:0;
+			text-transform: uppercase;
+		}
+
+			.little:before
+			{
+				height:86px;
+				margin-top:-20px;
+				font:400 3em/1 "Passion One",Impact,Arial,sans-serif;
+			}
+
+			.big:before
+			{
+				height:114px;
+				margin-top:-43px;
+				font:400 6em/1 "Passion One",Impact,Arial,sans-serif;
+			}
+
+			.start:before
+			{
+				content:"START";
+				color: #ED1E79;
+				/*z-index: 100;*/
+			}
+			.view:before
+			{
+				content: "VIEW";
+				color: #1EED82;
+			}
+
+		.imglink--left a:hover .imagecontainer:before, .imglink--right a:hover .imagecontainer:before, .toprojects a:hover .imagecontainer:before
+		{
+			opacity:1;
+		}
+
+		.imglink--left .details-title, .imglink--right .details-title
+		{
+			text-align:center;
+			padding-top: 7%;
+		}
+
+@media all and (min-width: 31em) {
+	.little:before
+	{
+		height:86px;
+		margin-top:-43px;
+		font:400 5.2em/1 "Passion One",Impact,Arial,sans-serif;
+	}
+
+	.big:before
+	{
+		height:114px;
+		margin-top:-57px;
+		font:400 8.5em/1 "Passion One",Impact,Arial,sans-serif;
+	}
+}
+
+/* -------------- categories ------------- */
+
+.categories-list
+{
+	list-style: none;
+	margin: 0;
+	padding: 3% 0 0;
+}
+.categories
+{
+	display: block;
+	padding: 7% 0 0;
+	margin: 0;
+	width: 100%;
+}
+
+	.names
+	{
+		width:100%;
+		padding: 0;
+		margin: 0;
+	}
+
+	.toprojects
+	{
+		width:100%;
+
+	}
+
+		.toprojects a
+		{
+			text-decoration: none;
+			color: #212121;
+		}
+
+			.toproject-arrow
+			{
+				width: 18.1818%;
+				display: none; /**/
+				text-align: center;
+				margin-top: 4%; /*4*/
+			}
+
+			.toproject-image
+			{
+				width: 100%; /* 81.8181 */
+			}
+
+			.toproject-image img
+			{
+				width: 100%
+			}
+
+	.antispace
+	{
+		margin-bottom: 0em;
+		padding: 0 0 0.3em;
+		text-align: center;
+	} 
+
+	.explications-little
+	{
+		display: none;
+	}
+
+	.pcenter
+	{
+		text-align: center;
+	}
+
+@media all and (min-width: 37em) {
+
+	.names
+	{
+		width:26.666%;
+		float: left;
+		display: inline-block;
+	}
+
+	.toprojects
+	{
+		width:73.333%;
+		float:right;
+	}
+
+	.antispace
+	{
+		margin: 0;
+		padding: 0;
+		text-align: left;
+	} 
+
+	.explications-little
+	{
+		display: inline;
+	}
+
+	.toproject-arrow
+	{
+		display: inline-block;
+	}
+
+	.toproject-image
+	{
+		width: 81.8181%;
+	}
+
+	.pcenter
+	{
+		text-align: left;
+	}
+
+}
+
+/*____________________FOOTER______________________*/
+/*________________________________________________*/
+
+.footing
+{
+	margin: 0;
+	padding: 0;
+	background: #212121;
+}
+
+	.pagefooter
+	{
+		max-width: 1024px;
+		margin: 0 auto;
+		padding:35px 0;
+		list-style: none;
+		text-align: center;
+	}
+
+		.pagefooter > li
+		{
+			display:inline;
+		}
+
+				.pagefooter a
+				{
+					display: inline-block;
+					margin:0 0.1em;
+					padding: 10px 10px;
+					opacity: 0.6;
+					transition:opacity 0.2s linear;
+				}
+
+					.pagefooter a:hover
+					{
+						opacity: 0.99;
+					}
+
+/*.copyright
+{
+	color: #2D2D2D;
+	text-align: center;
+	margin: 0;
+	padding: 1em 0 1.5em;
+}*/
+
+@media all and (min-width: 28em) {
+
+	.pagefooter a
+	{
+		margin:0 1em;
+		padding: 10px 10px;
+
+	}
+
+		.facebook a:after
+		{
+			content: "%";
+		}
+
+		.twitter a:after
+		{
+			content: "=";
+		}
+
+		.vimeo a:after
+		{
+			content: "^v";
+		}
+
+		.mail a:after
+		{
+			content: "#";
+		}
+
+} 
+
+
+
+/* ################# FIXES ################# */
+/*------------------------------------------------------------------------------------------------------*/
+
+/* #### CLEARFIX #### */
+
+.clearfix:before, .clearfix:after
+{
+	content: "";
+	display: table;
+}
+
+.clearfix:after
+{
+	clear:both;
+}
+
+/* #### FLUID MEDIA #### */
+
+.fluidmedia
+{
+	max-width:100%;
+}
+
+/* #### IMAGE PADDING MARGIN #### */
+
+.imgcontainer
+{
+	padding: 0;
+	margin: 0;
+}
+
+	.imgcontainer img
+	{
+		display: block;
+	}
+
+
+
+
+
+
